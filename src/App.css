@@ -249,6 +249,26 @@ input:focus {
   outline: none;
 }
 
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  gap: 1rem;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home > * { /* "< *" targets the child */
+  flex: 0 0 calc(25%-1rem);
+
+  @media(min-width: 1024px) { /* i don't think this is working */
+    flex: 0 0 (calc(25% - 1rem));
+  }
+}
+
 .footer {
   padding: 2rem;
   border-top: 1.5px solid var(--green2);
