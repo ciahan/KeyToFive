@@ -152,6 +152,23 @@ body {
   text-underline-offset: 4px;
 }
 
+.hamburgerMenuIcon {
+  width: 30px;
+  height: 30px;
+
+  background-color: var(--text2);
+  mask-image: url('/Icons/hamburgerMenu_icon.svg');
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+
+  /* this does the same thing as the stuff above, but increases browswer compatibility */
+  -webkit-mask-image: url('/Icons/hamburgerMenu_icon.svg');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+}
+
 .linkIcon {
   width: 20px;
   height: 20px;

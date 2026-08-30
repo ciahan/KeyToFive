@@ -19,11 +19,10 @@ export default function Header() {
             </div>
             {/* Hamburger Menu */}
             <button
-                className="hamburgerMenu"
+                className="hamburgerMenuIcon"
                 onClick={() => setMenuOpen(!menuOpen)}
                 aria-label="Toggle navigation menu"
             >
-                ☰
             </button>
 
             {/* Navigation buttons */}
