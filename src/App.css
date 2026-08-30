@@ -361,10 +361,15 @@
   flex-direction: column;
   align-items: right;
   color: var(--text2);
+  font-size: 18px;
 
   &:hover {
     cursor: pointer;
     color: var(--text);
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 22px;
   }
 }
 
@@ -406,9 +411,9 @@
 .noteContainer {
   background-color: var(--green0);
   border: 1px solid var(--green3);
-  border-radius: 55px;
+  border-radius: 35px;
   box-sizing: border-box;
-  padding: 4rem;
+  padding: 2.5rem;
   box-shadow: 0 1px 5px var(--shadow);
 
   display: flex;
@@ -422,6 +427,10 @@
     box-shadow:
       0 0 0 1px var(--green3),
       0 2px 9px var(--shadow2);
+  }
+
+  @media (min-width: 1024px) {
+    border-radius: 45px;
   }
 }
 

@@ -18,6 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/subjects" element={<Subjects />} />
         <Route path="/subjects/:subjectSlug" element={<Subjects />} />
+        <Route path="/subjects/:subjectSlug/:noteSlug/*" element={<Subjects />} />
         <Route path="/mission" element={<Mission />} />
         <Route path="/team" element={<Team />} />
       </Routes>

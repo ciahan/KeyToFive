@@ -131,8 +131,9 @@ export const AP_SubjectsData = [
           {
             number: 1,
             name: "Chemistry of Life",
+            slug: "chemistry-of-life",
             url: "https://www.remnote.com/a/Unit-1%253A-Chemistry-of-Life/69dca40f5cb5b2441e7a263c",
-            subUnits: [
+            units: [
               {
                 name: "Intro to Biology",
                 slug: "intro-to-biology",
@@ -153,7 +154,7 @@ export const AP_SubjectsData = [
                 slug: "organic-molecules",
                 url: "",
 
-                subunits: [
+                units: [
                   {
                     name: "Intro to Organic Molecules",
                     slug: "intro",
