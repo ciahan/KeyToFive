@@ -70,7 +70,7 @@ export default function Home() {
                             </a>
                             <a
                             className="buttonBig2 flex-1"
-                            href="https://www.instagram.com/apnoteshare"
+                            href="https://www.instagram.com/keytofive/"
                             target="_blank"
                             rel="noopener noreferrer"
                             >
