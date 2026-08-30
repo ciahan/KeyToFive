@@ -276,28 +276,28 @@ export const TeamMembers = [
         name: "Ciara Feng",
         headshot: "ciara_headshot.png",
         role: "Co-Founder & Web Design Director",
-        bio: "Ciara Feng is a Junior at Montgomery Blair High School. She is a self-proclaimed perfectionist who finds comfort in taking extremely detailed notes (like the ones she wrote for AP US History, which consisted of 3302 flashcards.) Besides being interested in computer science, she also loves art, crochet, singing, playing games, and her cats Pumpkin and Melon.",
+        bio: "Ciara Feng is a senior at Montgomery Blair High School. She is a self-proclaimed perfectionist who finds comfort in taking extremely detailed notes (like the ones she wrote for AP US History, which consisted of 3302 flashcards.) Besides being interested in computer science, she also loves art, crochet, singing, playing games, and her cats Pumpkin and Melon.",
       },
       {
         id: "rebeccal",
         name: "Rebecca Lemiesa",
         headshot: "rebecca_headshot.png",
         role: "Content Director",
-        bio: "Rebecca Lemiesa is a rising junior at Montgomery Blair High School interested in biomed! She channels her energy into things like debate, violin, tennis, leading church services, and even plays around with housing and landscaping designs on gaming platforms. After tiring days, Rebecca enjoys deep but silly conversations with a close friend during neighborhood walks."
+        bio: "Rebecca Lemiesa is a junior at Montgomery Blair High School interested in biomed! She channels her energy into things like debate, violin, tennis, leading church services, and even plays around with housing and landscaping designs on gaming platforms. After tiring days, Rebecca enjoys deep but silly conversations with a close friend during neighborhood walks."
       },
       {
         id: "alicez",
         name: "Alice Zhang",
         headshot: "alice_headshot.png",
         role: "Recruitment Director",
-        bio: "Alice Zhang is a rising junior at Wayzata High School. Outside of school, she enjoys playing the piano, reading, doing martial arts, and ice skating. Her favorite AP Class was Music Theory. In school, she leads the Biology Club and Neuroscience Club, and occasionally goes on side quests with her friends to the woods and ponds by her school.",
+        bio: "Alice Zhang is a junior at Wayzata High School. Outside of school, she enjoys playing the piano, reading, doing martial arts, and ice skating. Her favorite AP Class was Music Theory. In school, she leads the Biology Club and Neuroscience Club, and occasionally goes on side quests with her friends to the woods and ponds by her school.",
       },
       {
         id: "liyah",
         name: "Liya Henok",
         headshot: "liya_headshot.png",
         role: "Social Media Director",
-        bio: "Hi, my name is Liya Henok, I am a Junior at Montgomery Blair HS, and a little about me is that I love driving go-karts,  my fav dessert is tiramisu, I have played violin for 6 years and I play soccer, basketball, and volleyball!"
+        bio: "Hi, my name is Liya Henok, I am a junior at Montgomery Blair HS, and a little about me is that I love driving go-karts,  my fav dessert is tiramisu, I have played violin for 6 years and I play soccer, basketball, and volleyball!"
       },
     ],
   },
