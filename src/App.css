@@ -190,10 +190,10 @@
 .buttonBig {
   background-color: var(--purple1);
   border: 1px solid var(--purple3);
-  border-radius: 45px;
+  border-radius: 30px;
   box-shadow: 0 1px 5px var(--shadow);
   box-sizing: border-box;
-  padding: 3rem;
+  padding: 1.5rem;
 
   display: flex;
   flex-direction: column;
@@ -206,12 +206,30 @@
       0 0 0 1px var(--purple3),
       0 2px 9px var(--shadow2);
   }
+
+  /* tablets */
+  @media (min-width: 768px) {
+  }
+
+  /* laptops */
+  @media (min-width: 1024px) {
+  }
+
+  /* desktops */
+  @media (min-width: 1440px) {
+    padding: 3rem;
+    border-radius: 45px;
+  }
+
+  /* large screens */
+  @media (min-width: 1920px) {
+  }
 }
 
 .buttonBig2 {
   background-color: var(--yellow1);
   border: 1px solid var(--yellow3);
-  border-radius: 45px;
+  border-radius: 30px;
   box-shadow: 0 1px 5px var(--shadow);
   box-sizing: border-box;
   padding: 1.5rem;
@@ -239,6 +257,7 @@
   /* desktops */
   @media (min-width: 1440px) {
     padding: 3rem;
+    border-radius: 45px;
   }
 
   /* large screens */
