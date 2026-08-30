@@ -204,9 +204,26 @@ body {
 
 .h0 {
   font-weight: 500;
-  font-size: 60px;
+  font-size: 40px;
   letter-spacing: -2px;
   line-height: 100%;
+
+  /* tablets */
+  @media (min-width: 768px) {
+  }
+
+  /* laptops */
+  @media (min-width: 1024px) {
+  }
+
+  /* desktops */
+  @media (min-width: 1440px) {
+    font-size: 60px;
+  }
+
+  /* large screens */
+  @media (min-width: 1920px) {
+  }
 }
 
 h1, h2 {
@@ -214,9 +231,26 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 30px;
   letter-spacing: -1.68px;
   line-height: 100%;
+
+  /* tablets */
+  @media (min-width: 768px) {
+  }
+
+  /* laptops */
+  @media (min-width: 1024px) {
+  }
+
+  /* desktops */
+  @media (min-width: 1440px) {
+    font-size: 36px;
+  }
+
+  /* large screens */
+  @media (min-width: 1920px) {
+  }
 }
 
 h2, h22 {

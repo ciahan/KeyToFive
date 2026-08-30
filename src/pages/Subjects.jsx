@@ -116,24 +116,23 @@ export default function Subjects() {
                     </div>
                     ) : (
                     /* NOTES DETAIL */
-                    <div className="flex flex-col gap-8 w-full">
+                    <div className="flex flex-col gap-14 w-full">
                         <div className="flex flex-col gap-2">
-                        {/* BACK BUTTON */}
-                        <div>
-                            <button
-                            className="backButton"
-                            onClick={() => navigate('/subjects')}
-                            >
-                            ← Back to All Subjects
-                            </button>
-                        </div>
+                            {/* BACK BUTTON */}
+                            <div>
+                                <button
+                                className="backButton"
+                                onClick={() => navigate('/subjects')}
+                                >
+                                ← Back to All Subjects
+                                </button>
+                            </div>
 
-                        {/* SUBJECT NOTES TITLE */}
-                        <div className="h0">
-                            {selectedSubject.title} Notes
+                            {/* SUBJECT NOTES TITLE */}
+                            <div className="h0">
+                                {selectedSubject.title} Notes
+                            </div>
                         </div>
-                        </div>
-
                     
                         <div className="flex flex-col gap-4">
                             {selectedSubject.notes.length === 0 ? (
