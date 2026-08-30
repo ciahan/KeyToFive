@@ -40,7 +40,7 @@ export default function Home() {
                             This project is built by students, for students. If you have notes you would like to share or want to volunteer your time to help expand our resources, we would love to hear from you.
                             </h2>
                         </>
-                        <div className = "flex flex-col gap-8 w-full">
+                        <div className = "flex flex-col gap-4 lg:gap-8 w-full">
                             <div className = "buttonBig">
                                 <div className="flex items-center gap-3">
                                     <h1> Share Your Notes </h1>
@@ -56,7 +56,7 @@ export default function Home() {
                                 <h22> Help us curate resources, review content, or spread the word about free AP resources. </h22>
                             </div>
                         </div>
-                        <div className="home2 gap-8 w-full">
+                        <div className="home2 gap-4 lg:gap-8 w-full">
                             <a
                             className="buttonBig2 flex-1"
                             href="mailto:apnoteshare@gmail.com?subject=I%20want%20to%20contribute"
