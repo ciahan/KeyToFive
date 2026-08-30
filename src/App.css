@@ -281,7 +281,7 @@
 .container {
   background-color: var(--green0);
   border: 1px solid var(--green3);
-  border-radius: 55px;
+  border-radius: 45px;
   box-sizing: border-box;
   padding: 2rem;
   
@@ -302,6 +302,7 @@
 
   /* desktops */
   @media (min-width: 1440px) {
+    border-radius: 55px;
     padding: 4rem;
   }
 
