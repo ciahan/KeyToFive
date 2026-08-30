@@ -9,25 +9,25 @@ export default function Home() {
                 <div className = "page">
                     {/* INTRO TEXT */}
                     <div className = "main-text">
-                    {/* TITLE */}
-                    <div className="h0">
-                        <span className="highlight-text">Free AP Exam Resources</span>
-                        {" "} for {" "}
-                        <span className="underline-text">
-                        Every Student
-                        </span>
-                    </div>
-                    {/* TEXT */}
-                    <h2>
-                        Access comprehensive study notes, practice resources, and exam prep materials, all completely free. We believe every student deserves the tools to succeed.
-                    </h2>
-                    {/* VIEW SUBJECTS BUTTON */}
-                    <a
-                        className = "buttonMed"
-                        href="/subjects"
-                    >
-                        <h1> View Subjects → </h1>
-                    </a>
+                        {/* TITLE */}
+                        <div className="h0">
+                            <span className="highlight-text">Free AP Exam Resources</span>
+                            {" "} for {" "}
+                            <span className="underline-text">
+                            Every Student
+                            </span>
+                        </div>
+                        {/* TEXT */}
+                        <h2>
+                            Access comprehensive study notes, practice resources, and exam prep materials, all completely free. We believe every student deserves the tools to succeed.
+                        </h2>
+                        {/* VIEW SUBJECTS BUTTON */}
+                        <a
+                            className = "buttonMed"
+                            href="/subjects"
+                        >
+                            <h1> View Subjects → </h1>
+                        </a>
                     </div>
 
                     {/* GET INVOLVED */}
@@ -46,14 +46,14 @@ export default function Home() {
                                     <h1> Share Your Notes </h1>
                                     <div className="linkIcon" />
                                 </div>
-                                <h3> Have high-quality notes for an AP subject? Share them with fellow students and help them succeed. </h3>
+                                <h22> Have high-quality notes for an AP subject? Share them with fellow students and help them succeed. </h22>
                             </div>
                             <div className = "buttonBig">
                                 <div className="flex items-center gap-3">
                                     <h1> Volunteer </h1>
                                     <div className="linkIcon" />
                                 </div>
-                                <h3> Help us curate resources, review content, or spread the word about free AP resources. </h3>
+                                <h22> Help us curate resources, review content, or spread the word about free AP resources. </h22>
                             </div>
                         </div>
                         <div className="home2 gap-8 w-full">
