@@ -188,6 +188,21 @@
     0 1px 5px var(--shadow2);
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track { /* background/track of scrollbar */
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb { /* moving part of scrollbar */
+  background: color-mix(in srgb, var(--text3) 60%, transparent);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
 .subjectCard {
   background-color: var(--purple1);
   border: 1px solid var(--purple3);

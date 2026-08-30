@@ -41,51 +41,53 @@ export default function Subjects() {
                 <div className="page">  
                     {!selectedSubject ? (
                     /* SUBJECTS */
-                    <div className="w-full flex flex-col gap-12">
+                    <div className="w-full flex flex-col gap-10 lg:gap-12">
                         {/* PAGE TITLE TEXT */}
                         <div className="flex flex-col gap-2">
-                        <div className="h0">
-                            Available Subjects
-                        </div>
-                        <h2>Choose a subject to access notes and free resources</h2>          
+                            <div className="h0">
+                                Available Subjects
+                            </div>
+                            <h2>Choose a subject to access notes and free resources</h2>          
                         </div>
 
                         {/* FILTERING METHODS */}
                         <div className="flex flex-col gap-3">
-                        {/* SEARCH BAR */}
-                        <div className="searchBar">
-                            <input
-                            type="text"
-                            placeholder="Search for a subject..."
-                            value={subjectSearch}
-                            onChange={(e) => setSubjectSearch(e.target.value)}
-                            />
-                        </div>
+                            {/* SEARCH BAR */}
+                            <div className="searchBar">
+                                <input
+                                type="text"
+                                placeholder="Search for a subject..."
+                                value={subjectSearch}
+                                onChange={(e) => setSubjectSearch(e.target.value)}
+                                />
+                            </div>
 
-                        {/* CATEGORIES TO FILTER */}
-                        <div className="flex justify-center gap-4">
-                            {Categories.map((category) => {
-                            const isActive = activeCategory === category.name;
-                            return (
-                                <button
-                                key={category.id}
-                                className={
-                                    `category
-                                    ${activeCategory === category.name ? 'active' : ''}`
-                                }
-                                onClick={() => {
-                                    if (activeCategory === category.name) {
-                                    setActiveCategory('All');
-                                    } else {
-                                    setActiveCategory(category.name);
-                                    }
-                                }}
-                                >
-                                {category.name}
-                                </button>
-                            );
-                            })}
-                        </div>
+                            {/* CATEGORIES TO FILTER */}
+                            <div className="overflow-x-auto">
+                                <div className="flex w-max min-w-full justify-center gap-4 p-1">
+                                    {Categories.map((category) => {
+                                    const isActive = activeCategory === category.name;
+                                    return (
+                                        <button
+                                        key={category.id}
+                                        className={
+                                            `category whitespace-nowrap
+                                            ${activeCategory === category.name ? 'active' : ''}`
+                                        }
+                                        onClick={() => {
+                                            if (activeCategory === category.name) {
+                                            setActiveCategory('All');
+                                            } else {
+                                            setActiveCategory(category.name);
+                                            }
+                                        }}
+                                        >
+                                        {category.name}
+                                        </button>
+                                    );
+                                    })}
+                                </div>
+                            </div>
                         </div>
 
                         {/* SUBJECTS DASHBOARD */}
