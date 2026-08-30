@@ -64,7 +64,7 @@ export default function Subjects() {
 
                             {/* CATEGORIES TO FILTER */}
                             <div className="overflow-x-auto">
-                                <div className="flex w-max min-w-full justify-center gap-4 p-1">
+                                <div className="flex w-max min-w-full justify-center gap-2 lg:gap-4 p-1">
                                     {Categories.map((category) => {
                                     const isActive = activeCategory === category.name;
                                     return (
