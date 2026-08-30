@@ -9,7 +9,7 @@ export default function Team() {
             <main>
                 <div className = "page">
                     <div className="flex flex-col gap-9">
-                        <h0> Meet the Team! </h0>
+                        <div className="h0"> Meet the Team! </div>
 
                         {/* Executives */}
                         {TeamMembers.map((group) => (

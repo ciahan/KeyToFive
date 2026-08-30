@@ -10,13 +10,13 @@ export default function Home() {
                     {/* INTRO TEXT */}
                     <div className = "main-text">
                     {/* TITLE */}
-                    <h0>
+                    <div className="h0">
                         <span className="highlight-text">Free AP Exam Resources</span>
                         {" "} for {" "}
                         <span className="underline-text">
                         Every Student
                         </span>
-                    </h0>
+                    </div>
                     {/* TEXT */}
                     <h2>
                         Access comprehensive study notes, practice resources, and exam prep materials, all completely free. We believe every student deserves the tools to succeed.

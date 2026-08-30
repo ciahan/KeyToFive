@@ -44,9 +44,9 @@ export default function Subjects() {
                     <div className="w-full flex flex-col gap-12">
                         {/* PAGE TITLE TEXT */}
                         <div className="flex flex-col gap-2">
-                        <h0>
+                        <div className="h0">
                             Available Subjects
-                        </h0>
+                        </div>
                         <h2>Choose a subject to access notes and free resources</h2>          
                         </div>
 
@@ -129,9 +129,9 @@ export default function Subjects() {
                         </div>
 
                         {/* SUBJECT NOTES TITLE */}
-                        <h0>
+                        <div className="h0">
                             {selectedSubject.title} Notes
-                        </h0>
+                        </div>
                         </div>
 
                     

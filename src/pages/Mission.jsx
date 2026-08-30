@@ -9,7 +9,7 @@ export default function Mssion() {
                 <div className = "page">
                     <div className="flex flex-col gap-9">
                         {/* OUR MISSION PAGE TITLE */}
-                        <h0> Our Mission </h0>
+                        <div className="h0"> Our Mission </div>
 
                         {/* OUR MISSION TEXT */}
                         <div className="flex flex-col gap-8">
