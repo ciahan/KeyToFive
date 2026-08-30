@@ -30,6 +30,7 @@
   min-height: 100vh;
   box-sizing: border-box;
   padding: 3rem;
+  padding-top: 4.5rem;
 
   display: flex;
   flex-direction: column;
@@ -130,7 +131,7 @@
   }
 }
 
-.buttonBig {
+.buttonMed {
   background-color: var(--purple1);
   border: 1px solid var(--purple3);
   border-radius: 28px;
@@ -151,6 +152,49 @@
       0 2px 9px var(--shadow2);
   }
 }
+
+.buttonBig {
+  background-color: var(--purple1);
+  border: 1px solid var(--purple3);
+  border-radius: 45px;
+  box-shadow: 0 1px 5px var(--shadow);
+  box-sizing: border-box;
+  padding: 3rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  &:hover {
+    cursor: pointer;
+    box-shadow:
+      0 0 0 1px var(--purple3),
+      0 2px 9px var(--shadow2);
+  }
+}
+
+.buttonBig2 {
+  background-color: var(--yellow1);
+  border: 1px solid var(--yellow3);
+  border-radius: 45px;
+  box-shadow: 0 1px 5px var(--shadow);
+  box-sizing: border-box;
+  padding: 3rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  &:hover {
+    cursor: pointer;
+    box-shadow:
+      0 0 0 1px var(--yellow3),
+      0 2px 9px var(--shadow2);
+  }
+}
+
 
 .backButton {
   display: flex;
@@ -200,21 +244,6 @@
   }
 }
 
-.container2 {
-  background-color: var(--yellow1);
-  border: 1px solid var(--yellow3);
-  border-radius: 45px;
-  box-shadow: var(--shadow);
-  box-sizing: border-box;
-  padding: 1.75rem;
-  box-shadow: 0 1px 5px var(--shadow);
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.5rem;
-}
-
 .teamMembers {
   display: flex;
   flex-wrap: wrap;
@@ -261,11 +290,17 @@ input:focus {
   margin-right: auto;
 }
 
-.home > * { /* "< *" targets the child */
-  flex: 0 0 calc(25%-1rem);
+.home1 {
+  display: flex;
+  flex-direction: row;
+}
 
-  @media(min-width: 1024px) { /* i don't think this is working */
-    flex: 0 0 (calc(25% - 1rem));
+.home2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  @media(max-width: 1024px) {
+    grid-template-columns: 1fr;
   }
 }
 

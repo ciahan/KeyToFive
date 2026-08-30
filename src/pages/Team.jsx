@@ -28,13 +28,13 @@ export default function Team() {
                                 <h1>
                                     {member.name}
                                 </h1>
-                                <h2> {member.role} </h2>
+                                <h2 className="highlight-text"> {member.role} </h2>
                                 </div>
                                 <img
                                 src={`/Headshots/${member.headshot}`}
                                 style={{ width: 'auto', height: '400px' }}
                                 />
-                                <h3> {member.bio} </h3>
+                                <h4> {member.bio} </h4>
                             </div>
                             ))}
                         </div>
@@ -62,7 +62,7 @@ export default function Team() {
                                 src={`/Headshots/${member.headshot}`}
                                 style={{ width: 'auto', height: '400px' }}
                                 />
-                                <h3> {member.bio} </h3>
+                                <h4> {member.bio} </h4>
                             </div>
                             ))}
                         </div>

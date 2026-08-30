@@ -146,8 +146,8 @@ export default function Subjects() {
                                 >
                                     <h1>{note.title} ({note.year})</h1>
                                     <div>
-                                        <h3><span className="highlight-text">Platform:</span> {note.platform}</h3>
-                                        <h3><span className="highlight-text">Contributor(s):</span> {note.contributors.join(', ')}</h3>
+                                        <h4><span className="highlight-text">Platform:</span> {note.platform}</h4>
+                                        <h4><span className="highlight-text">Contributor(s):</span> {note.contributors.join(', ')}</h4>
                                     </div>
                                     {note.description && <p className="description">{note.description}</p>}
                                     
@@ -155,7 +155,7 @@ export default function Subjects() {
                                     href={note.url} 
                                     target="_blank" 
                                     rel="noopener noreferrer" 
-                                    className="buttonBig"
+                                    className="buttonMed"
                                     >
                                     Open Notes
                                     </a>

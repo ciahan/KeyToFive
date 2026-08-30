@@ -107,7 +107,7 @@
   padding: 0;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --text: #e0dcf9;
     --text2: #c2b9f0;
@@ -133,6 +133,7 @@
     filter: invert(1) brightness(2);
   }
 }
+*/
 
 body {
   margin: 0;
@@ -141,11 +142,64 @@ body {
 
 .highlight-text {
   background-color: var(--pink1);
+  width: fit-content;
+  margin-inline: auto;
 }
 
 .underline-text {
   text-decoration: underline var(--text) 3px solid;
   text-underline-offset: 4px;
+}
+
+linkIcon {
+  width: 20px;
+  height: 20px;
+
+  background-color: var(--text2);
+  mask-image: url('/Icons/link_icon.png');
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+
+  /* this does the same thing as the stuff above, but increases browswer compatibility */
+  -webkit-mask-image: url('/Icons/link_icon.png');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+}
+
+mailIcon {
+  width: 35px;
+  height: 35px;
+
+  background-color: var(--text2);
+  mask-image: url('/Icons/mail_icon.png');
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+
+  /* this does the same thing as the stuff above, but increases browswer compatibility */
+  -webkit-mask-image: url('/Icons/mail_icon.png');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+}
+
+instaIcon {
+  width: 40px;
+  height: 40px;
+
+  background-color: var(--text2);
+  mask-image: url('/Icons/insta_icon.png');
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+
+  /* this does the same thing as the stuff above, but increases browswer compatibility */
+  -webkit-mask-image: url('/Icons/insta_icon.png');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
 }
 
 .h0 {
@@ -169,16 +223,28 @@ h1, h2 {
 h1 {
   font-size: 36px;
   letter-spacing: -1.68px;
+  line-height: 100%;
 }
 
-h2 {
+h2, h22 {
   font-size: 26px;
   line-height: 140%;
   letter-spacing: -0.24px;
-  color: var(--text2)
+}
+
+h2 {
+  color: var(--text2);
+}
+
+h22 {
+  color: var(--text1);
 }
 
 h3 {
+  font-size: 24px;
+}
+
+h4 {
   font-size: 20px;
 }
 

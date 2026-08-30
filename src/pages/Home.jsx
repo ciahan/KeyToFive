@@ -23,7 +23,7 @@ export default function Home() {
                     </h2>
                     {/* VIEW SUBJECTS BUTTON */}
                     <a
-                        className = "buttonBig"
+                        className = "buttonMed"
                         href="/subjects"
                     >
                         <h1> View Subjects → </h1>
@@ -32,40 +32,54 @@ export default function Home() {
 
                     {/* GET INVOLVED */}
                     <div className = "container">
-                    <>
-                        <h1>
-                        Want to Help Other Students?
-                        </h1>
-                        <h2>
-                        This project is built by students, for students. If you have notes you would like to share or want to volunteer your time to help expand our resources, we would love to hear from you.
-                        </h2>
-                    </>
-                    <div className = "home flex gap-5">
-                        <div className = "container2 flex-1">
-                        <h2> Share Your Notes </h2>
-                        <p> Have high-quality notes for an AP subject? Share them with fellow students and help them succeed. </p>
+                        <>
+                            <h1>
+                            Want to Help Other Students?
+                            </h1>
+                            <h2>
+                            This project is built by students, for students. If you have notes you would like to share or want to volunteer your time to help expand our resources, we would love to hear from you.
+                            </h2>
+                        </>
+                        <div className = "flex flex-col gap-8 w-full">
+                            <div className = "buttonBig">
+                                <div className="flex items-center gap-3">
+                                    <h1> Share Your Notes </h1>
+                                    <linkIcon />
+                                </div>
+                                <h3> Have high-quality notes for an AP subject? Share them with fellow students and help them succeed. </h3>
+                            </div>
+                            <div className = "buttonBig">
+                                <div className="flex items-center gap-3">
+                                    <h1> Volunteer </h1>
+                                    <linkIcon />
+                                </div>
+                                <h3> Help us curate resources, review content, or spread the word about free AP resources. </h3>
+                            </div>
                         </div>
-                        <div className = "container2 flex-1">
-                        <h2> Volunteer </h2>
-                        <p> Help us curate resources, review content, or spread the word about free AP resources. </p>
+                        <div className="home2 gap-8 w-full">
+                            <a
+                            className="buttonBig2 flex-1"
+                            href="mailto:apnoteshare@gmail.com?subject=I%20want%20to%20contribute"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
+                                <div className="flex items-center gap-5">
+                                    <h1> Get in Touch </h1>
+                                    <mailIcon />
+                                </div>
+                            </a>
+                            <a
+                            className="buttonBig2 flex-1"
+                            href="https://www.instagram.com/apnoteshare"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
+                                <div className="flex items-center gap-4">
+                                    <h1> Follow us on Instagram </h1>
+                                    <instaIcon />
+                                </div>
+                            </a>
                         </div>
-                        <a
-                        className="container2 flex-1"
-                        href="mailto:apnoteshare@gmail.com?subject=I%20want%20to%20contribute"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        >
-                            <h2> Get in Touch </h2>
-                        </a>
-                        <a
-                        className="container2 flex-1"
-                        href="https://www.instagram.com/apnoteshare"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        >
-                            <h2> Follow us on Instagram </h2>
-                        </a>
-                    </div>
                     </div>
                 </div>
             </main>
