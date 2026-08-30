@@ -151,7 +151,7 @@ body {
   text-underline-offset: 4px;
 }
 
-linkIcon {
+.linkIcon {
   width: 20px;
   height: 20px;
 
@@ -168,7 +168,7 @@ linkIcon {
   -webkit-mask-size: contain;
 }
 
-mailIcon {
+.mailIcon {
   width: 35px;
   height: 35px;
 
@@ -185,7 +185,7 @@ mailIcon {
   -webkit-mask-size: contain;
 }
 
-instaIcon {
+.instaIcon {
   width: 40px;
   height: 40px;
 

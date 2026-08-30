@@ -44,14 +44,14 @@ export default function Home() {
                             <div className = "buttonBig">
                                 <div className="flex items-center gap-3">
                                     <h1> Share Your Notes </h1>
-                                    <linkIcon />
+                                    <div className="linkIcon" />
                                 </div>
                                 <h3> Have high-quality notes for an AP subject? Share them with fellow students and help them succeed. </h3>
                             </div>
                             <div className = "buttonBig">
                                 <div className="flex items-center gap-3">
                                     <h1> Volunteer </h1>
-                                    <linkIcon />
+                                    <div className="linkIcon" />
                                 </div>
                                 <h3> Help us curate resources, review content, or spread the word about free AP resources. </h3>
                             </div>
@@ -65,7 +65,7 @@ export default function Home() {
                             >
                                 <div className="flex items-center gap-5">
                                     <h1> Get in Touch </h1>
-                                    <mailIcon />
+                                    <div className="mailIcon" />
                                 </div>
                             </a>
                             <a
@@ -76,7 +76,7 @@ export default function Home() {
                             >
                                 <div className="flex items-center gap-4">
                                     <h1> Follow us on Instagram </h1>
-                                    <instaIcon />
+                                    <div className="instaIcon" />
                                 </div>
                             </a>
                         </div>
