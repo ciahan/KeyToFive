@@ -41,27 +41,37 @@ export default function Home() {
                             </h2>
                         </>
                         <div className = "flex flex-col gap-4 lg:gap-8 w-full">
-                            <div className = "buttonBig">
+                            <a
+                                className = "buttonBig"
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSeEZ5LLcxrgluesdzgy8PFq4t6MnRXtMYn1MU1UdK9a1gKw-Q/viewform?usp=header"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 <div className="flex items-center gap-3">
                                     <h1> Share Your Notes </h1>
                                     <div className="linkIcon" />
                                 </div>
                                 <h22> Have high-quality notes for an AP subject? Share them with fellow students and help them succeed. </h22>
-                            </div>
-                            <div className = "buttonBig">
+                            </a>
+                            <a
+                                className = "buttonBig"
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSe6rBcvaxf8qiPLwmyj-N541lSDr4UN7qrfWBrC59q8-ZlxPQ/viewform?usp=header"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 <div className="flex items-center gap-3">
-                                    <h1> Volunteer </h1>
+                                    <h1> Join our Team </h1>
                                     <div className="linkIcon" />
                                 </div>
-                                <h22> Help us curate resources, review content, or spread the word about free AP resources. </h22>
-                            </div>
+                                <h22> Apply for a position of leadership and help Key to Five curate resources, review content, or spread the word about our free AP resources. </h22>
+                            </a>
                         </div>
                         <div className="home2 gap-4 lg:gap-8 w-full">
                             <a
-                            className="buttonBig2 flex-1"
-                            href="mailto:apnoteshare@gmail.com?subject=I%20want%20to%20contribute"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                                className="buttonBig2 flex-1"
+                                href="mailto:apnoteshare@gmail.com?subject=I%20want%20to%20contribute"
+                                target="_blank"
+                                rel="noopener noreferrer"
                             >
                                 <div className="flex items-center gap-5">
                                     <h1> Get in Touch </h1>
@@ -69,10 +79,10 @@ export default function Home() {
                                 </div>
                             </a>
                             <a
-                            className="buttonBig2 flex-1"
-                            href="https://www.instagram.com/keytofive/"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                                className="buttonBig2 flex-1"
+                                href="https://www.instagram.com/keytofive/"
+                                target="_blank"
+                                rel="noopener noreferrer"
                             >
                                 <div className="flex items-center gap-4">
                                     <h1> Follow us on Instagram </h1>
