@@ -129,11 +129,14 @@ export default function Subjects() {
                                     onUnitClick={handleUnitClick}
                                 />
                             ) : (
-                                <iframe
-                                    className="w-full h-[80vh] rounded-lg"
-                                    src={selectedUnit.url}
-                                    title={selectedUnit.name}
-                                />
+                                <a
+                                    href={selectedUnit.url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="buttonMed"
+                                >
+                                    Open Notes
+                                </a>
                             )}
                         </div>
                     ) : selectedNote ? (
