@@ -303,7 +303,7 @@ export const TeamMembers = [
     ],
   },
   {
-    title: "Executives",
+    title: "Course Managers",
     banner: "/Banners/CourseManagersBanner.png",
     height: "200px",
     members: [
@@ -315,11 +315,25 @@ export const TeamMembers = [
         bio: "Hi! My name is Ruth, and I’m a junior at Montgomery Blair High School in Silver Spring, MD. I’m excited to be a Course Manager for AP Government and look forward to the expansion of AP prep to all students around the nation. I enjoy learning new instruments, drinking boba, and lifting in my free time :)",
       },
       {
-        id: "",
+        id: "karizma",
         name: "Karizma Mamo",
         headshot: "karizma_headshot.png",
         role: "AP Psych Course Manager",
         bio: "My name is Karizma and I will be the Course Manager for AP Psychology! I’m a junior at Montgomery Blair High School here at Maryland and something I like to do in my free time is to study theology and philosophy!",
+      },
+      {
+        id: "sarem",
+        name: "Sarem Beshir",
+        headshot: "sarem_headshot.png",
+        role: "AP US History Course Manager",
+        bio: "Hi! My name is Sarem and I’m a junior at Montgomery Blair Highschool. Outside of school, I enjoy reading and playing soccer. I like spending my free time doing things I enjoy and having fun!"
+      },
+      {
+        id: "margaux",
+        name: "Margaux Gualino",
+        headshot: "margaux_headshot.png",
+        role: "AP Physics C E&M Course Manager",
+        bio: "Hi, my name is Margaux and I am a junior at Montgomery Blair High School in the magnet program. I play varsity field hockey and I really like physics and chemistry!"
       },
     ],
   }

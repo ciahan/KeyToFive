@@ -444,15 +444,15 @@
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-
-  @media(min-width: 1024px) {
-    flex: 1 1 (calc(33.333% - 2rem));
-  }
 }
 
 .teamMembers > div {
   flex: 1 1 100%;
   max-width: 500px;
+
+  @media(min-width: 1024px) {
+    flex: 1 1 calc(50% - 2rem);
+  }
 }
 
 /* search bar */
