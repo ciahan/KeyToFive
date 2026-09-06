@@ -11,10 +11,10 @@ export default function Header() {
                 <Link className="flex items-center gap-5" to="/">
                     <img
                         src={"/Logo/keytofive_logo.png"}
-                        alt="Key to Five logo"
+                        alt="KeyToFive logo"
                         style = {{ width: "auto", height: "50px" }}
                     />
-                    <h4> Key to Five </h4>
+                    <h4> KeyToFive </h4>
                 </Link>
             </div>
             {/* Hamburger Menu */}

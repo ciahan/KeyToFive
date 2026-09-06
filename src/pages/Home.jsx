@@ -63,7 +63,7 @@ export default function Home() {
                                     <h1> Join our Team </h1>
                                     <div className="linkIcon" />
                                 </div>
-                                <h22> Apply for a position of leadership and help Key to Five curate resources, review content, or spread the word about our free AP resources. </h22>
+                                <h22> Apply for a position of leadership and help KeyToFive curate resources, review content, or spread the word about our free AP resources. </h22>
                             </a>
                         </div>
                         <div className="home2 gap-4 lg:gap-8 w-full">
