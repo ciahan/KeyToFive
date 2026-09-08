@@ -9,7 +9,7 @@ export default function SubjectUnits ({ units, onUnitClick }) {
                 {units.map((unit) => (
                         <button
                             key={unit.slug}
-                            className="noteContainer"
+                            className="subjectContainer"
                             onClick={() => onUnitClick(unit)}
                         >
                             <h1>
