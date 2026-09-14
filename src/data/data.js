@@ -913,13 +913,6 @@ export const TeamMembers = [
         bio: "Rebecca Lemiesa is a junior at Montgomery Blair High School interested in biomed! She channels her energy into things like debate, violin, tennis, leading church services, and even plays around with housing and landscaping designs on gaming platforms. After tiring days, Rebecca enjoys deep but silly conversations with a close friend during neighborhood walks."
       },
       {
-        id: "alicez",
-        name: "Alice Zhang",
-        headshot: "alice_headshot.png",
-        role: "Recruitment Director",
-        bio: "Alice Zhang is a junior at Wayzata High School. Outside of school, she enjoys playing the piano, reading, doing martial arts, and ice skating. Her favorite AP Class was Music Theory. In school, she leads the Biology Club and Neuroscience Club, and occasionally goes on side quests with her friends to the woods and ponds by her school.",
-      },
-      {
         id: "liyah",
         name: "Liya Henok",
         headshot: "liya_headshot.png",
@@ -962,5 +955,33 @@ export const TeamMembers = [
         bio: "Hi, my name is Margaux and I am a junior at Montgomery Blair High School in the magnet program. I play varsity field hockey and I really like physics and chemistry!"
       },
     ],
+  },
+  {
+    title: "State Ambassasdors",
+    banner: "/Banners/StateAmbassadorBanner.png",
+    height: "200px",
+    members: [
+      {
+        id: "alicez",
+        name: "Alice Zhang",
+        headshot: "alice_headshot.png",
+        role: "Minnesota State Ambassador",
+        bio: "Alice Zhang is a junior at Wayzata High School. Outside of school, she enjoys playing the piano, reading, doing martial arts, and ice skating. Her favorite AP Class was Music Theory. In school, she leads the Biology Club and Neuroscience Club, and occasionally goes on side quests with her friends to the woods and ponds by her school.",
+      },
+      {
+        id: "averyg",
+        name: "Avery Gluck",
+        headshot: "averyGluck_headshot.jpeg",
+        role: "New York State Ambassador",
+        bio: "I’m Avery Gluck, and I’m a senior at the Bronx High School of Science in NYC! I’ve taken a ton of AP classes across my four years of high school, and if you’d like, send any notes and study guides you feel comfortable sharing with me under my Instagram, @averyg_42! I do research on asthma mHealth under an allergist and a medical student, and I love math and playing music (guitar, keys, and bass)! I am planning to study chemical engineering in college.",
+      },
+      {
+        id: "azrae",
+        name: "Azra Naz Erinc",
+        headshot: "azra_headshot.jpeg",
+        role: "Virginia State Ambassador",
+        bio: "I’m Azra Naz Erinc, a 15 year old sophomore at Tjhsst, VA. I am from Türkiye and moved to the U.S. when I was 12. I’ve been playing the piano for 10 years and I really enjoy playing it.",
+      },
+    ]
   }
 ]
