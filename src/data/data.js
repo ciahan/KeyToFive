@@ -982,6 +982,26 @@ export const TeamMembers = [
         role: "Virginia State Ambassador",
         bio: "I’m Azra Naz Erinc, a 15 year old sophomore at Tjhsst, VA. I am from Türkiye and moved to the U.S. when I was 12. I’ve been playing the piano for 10 years and I really enjoy playing it.",
       },
+      {
+        id: "lianae",
+        name: "Liana Efrem",
+        headshot: "lianaEfrem_headshot.png",
+        role: "California State Ambassador",
+        bio: "Hi! My name is Liana Efrem! I am a sophomore in high school. I have had numerous leadership roles from founding and being the president of the HOSA chapter in my school and founding my church tutoring program to cofounding the Mekedonia Youth Organization a nonprofit dedicated to helping the homeless, elderly and disabled in Ethiopia. Outside of extracurriculars I love to play soccer, bake and hang out with my family and friends. ",
+      },
+      {
+        id: "angelal",
+        name: "Angela Lin",
+        headshot: "angelaLin_headshot.png",
+        role: "New Jersey State Ambassador",
+        bio: "Angela Lin is a Junior at High Technology High School in New Jersey. She is actively involved in her school’s class council and serves on the boards of ReconX and Finance Club. Outside of school, she enjoys playing the violin, soccer, and baking."
+      },
+      {
+        id: "abigailf",
+        name: "Abigail Feldman",
+        headshot: "abigailFeldman_headshot.png",
+        bio: "Angela Lin is a Junior at High Technology High School in New Jersey. She is actively involved in her school’s class council and serves on the boards of ReconX and Finance Club. Outside of school, she enjoys playing the violin, soccer, and baking."
+      },
     ]
   }
 ]
