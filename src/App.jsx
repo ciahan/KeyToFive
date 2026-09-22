@@ -10,6 +10,9 @@ import './App.css'
 // 2. fix scrolling issue between pages
 // 3. make the plateform a category pill thing that provides additional information when you hover over it
 // 4. NoteStyle?
+// 5. look into creating a notepad aesthetic for the white + green border containers, utlizing holes, rungs, blue and red lines, etc.
+// 6. imbed remnote pages into the website (if possible)
+// 7. link forms to website
 
 function App() {
   return (
