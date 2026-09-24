@@ -3,6 +3,7 @@ import Home from './pages/Home.jsx'
 import Subjects from './pages/Subjects.jsx'
 import Mission from './pages/Mission.jsx'
 import Team from './pages/Team.jsx'
+import Contact from './pages/Contact.jsx'
 import './App.css'
 
 // to-do:
@@ -24,6 +25,7 @@ function App() {
         <Route path="/subjects/:subjectSlug/:noteSlug/*" element={<Subjects />} />
         <Route path="/mission" element={<Mission />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   )
