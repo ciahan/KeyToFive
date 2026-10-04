@@ -14,6 +14,8 @@ import './App.css'
 // 5. look into creating a notepad aesthetic for the white + green border containers, utlizing holes, rungs, blue and red lines, etc.
 // 6. imbed remnote pages into the website (if possible)
 // 7. link forms to website
+// 8. change link when you click on "email us" button (it links to wrong gmail)
+// 9. change 
 
 function App() {
   return (
