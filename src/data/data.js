@@ -2019,6 +2019,24 @@ export const AP_SubjectsData = [
     notes: [
     ],
   },
+  {
+    id: "physics-1",
+    title: "AP Physics 1",
+    slug: "ap-physics-1",
+    category: "Science",
+    notes: [
+      {
+        id: "physics1-1",
+        title: "AP Physics 1 Study Guide",
+        slug: "study-guide-2026",
+        platform: "Google Docs",
+        contributors: ["Olivia Yang", "Avery Gluck", "Other Bronx Students"],
+        year: "2026",
+        description: "",
+        url: "https://docs.google.com/document/d/1VhkjN-oLPMYhzYtXigd2P1BoABd61MFabPcDKIuebXg/edit?tab=t.0",
+      }
+    ]
+  }
   /*
   {
     id: "",
@@ -2191,8 +2209,23 @@ export const TeamMembers = [
         id: "abigailf",
         name: "Abigail Feldman",
         headshot: "abigailFeldman_headshot.png",
-        bio: "Angela Lin is a Junior at High Technology High School in New Jersey. She is actively involved in her school’s class council and serves on the boards of ReconX and Finance Club. Outside of school, she enjoys playing the violin, soccer, and baking."
+        role: "Georgia State Ambassador",
+        bio: "My name is Abigail Feldman and i’m a junior at GSMST and my hobbies are piano, junk journaling, crocheting, and writing!"
       },
+    ]
+  },
+  {
+    title: "Social Media Manager",
+    banner: "",
+
+    members: [
+      {
+        id: "kais",
+        name: "Kai Spencer",
+        headshot: "kai_headshot.png",
+        role: "Social Media Manager",
+        bio: "My name Is Kai Spencer and i'm a tenth grader in the Creative Arts Program at Montgomery Blair. I love to figure skate and am a member of the Wheaton competition team, as well as my other hobbies like painting, dancing, and playing with my dogs.",
+      }
     ]
   }
 ]
