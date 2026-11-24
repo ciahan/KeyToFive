@@ -1,5 +1,5 @@
 export const AP_SubjectsData = [
-  { // ALL LINKS SHOULD WORK
+  { // US History
     id: "us-history",
     title: "AP US History",
     slug: "ap-us-history",
@@ -331,7 +331,7 @@ export const AP_SubjectsData = [
       },
     ],
   },
-  { // ALL LINKS SHOULD WORK
+  { // US GOV
     id: "us-gov",
     title: "AP US Government",
     slug: "ap-us-government",
@@ -837,7 +837,7 @@ export const AP_SubjectsData = [
       }
     ],
   },
-  { // ALL LINKS SHOULD WORK
+  { // PSYCH
     id: "psych",
     title: "AP Psychology",
     slug: "ap-psychology",
@@ -1558,12 +1558,20 @@ export const AP_SubjectsData = [
       },
     ],
   },
-  {
+  { // WORLD HISTORY
     id: "world-history",
     title: "AP World History",
     slug: "ap-world-history",
     category: "History",
     notes: [
+      {
+        id: "world-1",
+        title: "AP World Notes",
+        platform: "Google Docs",
+        contributors: ["Avery Gluck", "More?"],
+        year: "2026",
+        url: ""
+      }
     ],
   },
   {

@@ -104,7 +104,7 @@ export default function Subjects() {
             <Header />
             <main>
                 <div className="page">  
-                    {selectedUnit ? (
+                    {selectedUnit ? ( // WHEN YOU CLICK INTO A UNIT
                         <div className="flex flex-col gap-8 w-full">
                             <div>
                                 <button
@@ -139,7 +139,7 @@ export default function Subjects() {
                                 </a>
                             )}
                         </div>
-                    ) : selectedNote ? (
+                    ) : selectedNote ? ( // WHEN YOU CLICK INTO THE NOTES
                         <div className="flex flex-col gap-8 w-full">
                             <div>
                                 <button
@@ -171,7 +171,7 @@ export default function Subjects() {
                                 </a>
                             )}
                         </div>
-                    ) : selectedSubject ? (
+                    ) : selectedSubject ? ( // WHEN YOU CLICK INTO THE SUBJECT
                         /* NOTES DETAIL */
                         <div className="flex flex-col gap-8 w-full">
                             {/* BACK BUTTON */}
@@ -216,7 +216,7 @@ export default function Subjects() {
                                 )}
                             </div>
                         </div>
-                    ) : (
+                    ) : ( // SUBJECT LIST
                         /* SUBJECTS */
                         <div className="w-full flex flex-col gap-10 lg:gap-12">
                             {/* PAGE TITLE TEXT */}

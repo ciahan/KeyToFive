@@ -218,7 +218,7 @@
   gap: 1rem;
 
   &:hover {
-    cursor: pointer;
+    cursor: url('/Cursor/keyCursor_pointer.png'), pointer;
     transform: translateY(-1px);
     box-shadow:
       0 0 0 1px var(--purple3),
@@ -241,7 +241,6 @@
   border: 1px solid var(--pink3);
 
   &:hover {
-    cursor: pointer;
     box-shadow:
       0 0 0 1px var(--pink3),
       0 1px 5px var(--shadow2);
@@ -269,7 +268,6 @@
   gap: 1rem;
 
   &:hover {
-    cursor: pointer;
     transform: translateY(-1px);
     box-shadow:
       0 0 0 1px var(--purple3),
@@ -291,7 +289,6 @@
   gap: 1rem;
 
   &:hover {
-    cursor: pointer;
     box-shadow:
       0 0 0 1px var(--purple3),
       0 2px 9px var(--shadow2);
@@ -330,7 +327,6 @@
   gap: 4rem;
 
   &:hover {
-    cursor: pointer;
     box-shadow:
       0 0 0 1px var(--yellow3),
       0 2px 9px var(--shadow2);
@@ -364,7 +360,6 @@
   font-size: 18px;
 
   &:hover {
-    cursor: pointer;
     color: var(--text);
   }
 
@@ -422,7 +417,6 @@
   gap: 2rem;
 
   &:hover {
-    cursor: pointer;
     transform: translateY(-1px);
     box-shadow:
       0 0 0 1px var(--green3),
@@ -448,7 +442,6 @@
   gap: 2rem;
 
   &:hover {
-    cursor: pointer;
     transform: translateY(-1px);
     box-shadow:
       0 0 0 1px var(--green3),
@@ -528,4 +521,12 @@ input:focus {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+}
+
+body {
+  cursor: url('/Cursor/keyCursor.png'), crosshair !important;
+}
+
+button, a, [role="button"] {
+  cursor: url('/Cursor/keyCursor_pointer.png'), pointer;
 }
