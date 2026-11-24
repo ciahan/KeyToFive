@@ -135,7 +135,9 @@ export default function Subjects() {
                                     rel="noopener noreferrer"
                                     className="buttonMed"
                                 >
-                                    Open Notes
+                                    <h1>
+                                        Open Notes
+                                    </h1>
                                 </a>
                             )}
                         </div>

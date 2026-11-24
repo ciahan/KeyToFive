@@ -313,3 +313,8 @@ h4 {
 p {
   margin: 0;
 }
+
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}

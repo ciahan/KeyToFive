@@ -2113,21 +2113,24 @@ export const TeamMembers = [
         name: "Joyce Fang",
         headshot: "joyce_headshot.png",
         role: "Founder & President",
-        bio: "Joyce Fang is a senior at Montgomery Blair High School. She has had numerous leadership positions, serving as State Parliamentarian for FBLA and Editor in Chief of SilverQuest. Outside of school, she enjoys playing flute, trying different foods, and talking to strangers.",
+        bio: 
+        "Hi! I’m Joyce, and I’m a senior at Montgomery Blair High School and a dual enrollment student at Montgomery College. Throughout high school, I’ve had numerous leadership positions, serving as State Parliamentarian for FBLA and Editor in Chief of SilverQuest. Outside of school, I enjoy playing the flute, trying different foods, and talking to strangers!"
       },
       {
         id: "ciaraf",
         name: "Ciara Feng",
         headshot: "ciara_headshot.png",
         role: "Co-Founder & Web Design Director",
-        bio: "Ciara Feng is a senior at Montgomery Blair High School. She is a self-proclaimed perfectionist who finds comfort in taking extremely detailed notes (like the ones she wrote for AP US History, which consisted of 3302 flashcards.) Besides being interested in computer science, she also loves art, crochet, singing, playing games, and her cats Pumpkin and Melon.",
+        bio:
+        "Hi, I’m Ciara! I’m a senior at Montgomery Blair High School. I’m a self-proclaimed perfectionist who finds comfort in taking extremely detailed notes (like the ones I wrote for AP US History, which consisted of 3302 flashcards.) Besides being interested in computer science, I also love art, crochet, singing, playing games, and my cats Pumpkin and Melon."
+
       },
       {
         id: "rebeccal",
         name: "Rebecca Lemiesa",
         headshot: "rebecca_headshot.png",
         role: "Content Director",
-        bio: "Rebecca Lemiesa is a junior at Montgomery Blair High School interested in biomed! She channels her energy into things like debate, violin, tennis, leading church services, and even plays around with housing and landscaping designs on gaming platforms. After tiring days, Rebecca enjoys deep but silly conversations with a close friend during neighborhood walks."
+        bio: "Hi, I'm Rebecca Lemiesa! I'm a junior at Montgomery Blair High School interested in biomed! I channel my energy into things like debate, violin, tennis, leading church services, and even play around with housing and landscaping designs on gaming platforms. After tiring days, I enjoy deep but silly conversations with a close friend during neighborhood walks."
       },
       {
         id: "liyah",
@@ -2137,6 +2140,57 @@ export const TeamMembers = [
         bio: "Hi, my name is Liya Henok, I am a junior at Montgomery Blair HS, and a little about me is that I love driving go-karts,  my fav dessert is tiramisu, I have played violin for 6 years and I play soccer, basketball, and volleyball!"
       },
     ],
+  },
+  {
+    title: "State Ambassasdors",
+    banner: "/Banners/StateAmbassadorBanner.png",
+    height: "200px",
+    members: [
+      {
+        id: "alicez",
+        name: "Alice Zhang",
+        headshot: "alice_headshot.png",
+        role: "Minnesota State Ambassador",
+        bio: "Hi, I'm Alice Zhang! I'm currently a junior at Wayzata High School. Outside of school, I enjoy playing the piano, reading, doing martial arts, and ice skating. My favorite AP Class was Music Theory. In school, I lead the Biology Club and Neuroscience Club, and occasionally go on side quests with my friends to the woods and ponds by my school.",
+      },
+      {
+        id: "averyg",
+        name: "Avery Gluck",
+        headshot: "averyGluck_headshot.jpeg",
+        role: "New York State Ambassador",
+        bio: "I’m Avery Gluck, and I’m a senior at the Bronx High School of Science in NYC! I’ve taken a ton of AP classes across my four years of high school, and if you’d like, send any notes and study guides you feel comfortable sharing with me under my Instagram, @averyg_42! I do research on asthma mHealth under an allergist and a medical student, and I love math and playing music (guitar, keys, and bass)! I am planning to study chemical engineering in college.",
+      },
+      {
+        id: "azrae",
+        name: "Azra Naz Erinc",
+        headshot: "azra_headshot.jpeg",
+        role: "Virginia State Ambassador",
+        bio: 
+        "I’m Azra Naz Erinc, a 15 year old sophomore at TJHSST, VA. I am from Türkiye and moved to the U.S. when I was 12. I’ve been playing the piano for 10 years and really enjoy playing it."
+      },
+      {
+        id: "lianae",
+        name: "Liana Efrem",
+        headshot: "lianaEfrem_headshot.png",
+        role: "California State Ambassador",
+        bio: "Hi! My name is Liana Efrem! I am a sophomore in high school. I have had numerous leadership roles from founding and being the president of the HOSA chapter in my school and founding my church tutoring program to cofounding the Mekedonia Youth Organization a nonprofit dedicated to helping the homeless, elderly and disabled in Ethiopia. Outside of extracurriculars I love to play soccer, bake and hang out with my family and friends. ",
+      },
+      {
+        id: "angelal",
+        name: "Angela Lin",
+        headshot: "angelaLin_headshot.png",
+        role: "New Jersey State Ambassador",
+        bio: "Hi, I'm Angela Lin! I'm currently a Junior at High Technology High School in New Jersey. I am actively involved in my school’s class council and serve on the boards of ReconX and Finance Club. Outside of school, I enjoy playing the violin, soccer, and baking."
+      },
+      {
+        id: "abigailf",
+        name: "Abigail Feldman",
+        headshot: "abigailFeldman_headshot.png",
+        role: "Georgia State Ambassador",
+        bio: 
+        "My name is Abigail Feldman and I'm a junior at GSMST. Some of my hobbies are piano, junk journaling, crocheting, and writing!"
+      },
+    ]
   },
   {
     title: "Course Managers",
@@ -2155,14 +2209,16 @@ export const TeamMembers = [
         name: "Karizma Mamo",
         headshot: "karizma_headshot.png",
         role: "AP Psych Course Manager",
-        bio: "My name is Karizma and I will be the Course Manager for AP Psychology! I’m a junior at Montgomery Blair High School here at Maryland and something I like to do in my free time is to study theology and philosophy!",
+        bio: 
+        "My name is Karizma, and I am the Course Manager for AP Psychology! I’m a junior at Montgomery Blair High School in Maryland, something I like to do in my free time is to study theology and philosophy!"
       },
       {
         id: "sarem",
         name: "Sarem Beshir",
         headshot: "sarem_headshot.png",
         role: "AP US History Course Manager",
-        bio: "Hi! My name is Sarem and I’m a junior at Montgomery Blair Highschool. Outside of school, I enjoy reading and playing soccer. I like spending my free time doing things I enjoy and having fun!"
+        bio: 
+        "Hi! My name is Sarem and I’m a junior at Montgomery Blair. Outside of school, I enjoy reading and playing soccer. I like spending my free time doing things I enjoy and having fun!"
       },
       {
         id: "margaux",
@@ -2174,56 +2230,7 @@ export const TeamMembers = [
     ],
   },
   {
-    title: "State Ambassasdors",
-    banner: "/Banners/StateAmbassadorBanner.png",
-    height: "200px",
-    members: [
-      {
-        id: "alicez",
-        name: "Alice Zhang",
-        headshot: "alice_headshot.png",
-        role: "Minnesota State Ambassador",
-        bio: "Alice Zhang is a junior at Wayzata High School. Outside of school, she enjoys playing the piano, reading, doing martial arts, and ice skating. Her favorite AP Class was Music Theory. In school, she leads the Biology Club and Neuroscience Club, and occasionally goes on side quests with her friends to the woods and ponds by her school.",
-      },
-      {
-        id: "averyg",
-        name: "Avery Gluck",
-        headshot: "averyGluck_headshot.jpeg",
-        role: "New York State Ambassador",
-        bio: "I’m Avery Gluck, and I’m a senior at the Bronx High School of Science in NYC! I’ve taken a ton of AP classes across my four years of high school, and if you’d like, send any notes and study guides you feel comfortable sharing with me under my Instagram, @averyg_42! I do research on asthma mHealth under an allergist and a medical student, and I love math and playing music (guitar, keys, and bass)! I am planning to study chemical engineering in college.",
-      },
-      {
-        id: "azrae",
-        name: "Azra Naz Erinc",
-        headshot: "azra_headshot.jpeg",
-        role: "Virginia State Ambassador",
-        bio: "I’m Azra Naz Erinc, a 15 year old sophomore at Tjhsst, VA. I am from Türkiye and moved to the U.S. when I was 12. I’ve been playing the piano for 10 years and I really enjoy playing it.",
-      },
-      {
-        id: "lianae",
-        name: "Liana Efrem",
-        headshot: "lianaEfrem_headshot.png",
-        role: "California State Ambassador",
-        bio: "Hi! My name is Liana Efrem! I am a sophomore in high school. I have had numerous leadership roles from founding and being the president of the HOSA chapter in my school and founding my church tutoring program to cofounding the Mekedonia Youth Organization a nonprofit dedicated to helping the homeless, elderly and disabled in Ethiopia. Outside of extracurriculars I love to play soccer, bake and hang out with my family and friends. ",
-      },
-      {
-        id: "angelal",
-        name: "Angela Lin",
-        headshot: "angelaLin_headshot.png",
-        role: "New Jersey State Ambassador",
-        bio: "Angela Lin is a Junior at High Technology High School in New Jersey. She is actively involved in her school’s class council and serves on the boards of ReconX and Finance Club. Outside of school, she enjoys playing the violin, soccer, and baking."
-      },
-      {
-        id: "abigailf",
-        name: "Abigail Feldman",
-        headshot: "abigailFeldman_headshot.png",
-        role: "Georgia State Ambassador",
-        bio: "My name is Abigail Feldman and i’m a junior at GSMST and my hobbies are piano, junk journaling, crocheting, and writing!"
-      },
-    ]
-  },
-  {
-    title: "Social Media Manager",
+    title: "Social Media Managers",
     banner: "",
 
     members: [
@@ -2232,7 +2239,8 @@ export const TeamMembers = [
         name: "Kai Spencer",
         headshot: "kai_headshot.png",
         role: "Social Media Manager",
-        bio: "My name Is Kai Spencer and i'm a tenth grader in the Creative Arts Program at Montgomery Blair. I love to figure skate and am a member of the Wheaton competition team, as well as my other hobbies like painting, dancing, and playing with my dogs.",
+        bio: 
+        "My name is Kai Spencer, and I'm a tenth grader in the Creative Arts Program at Montgomery Blair. I love to figure skate and am a member of the Wheaton competition team. My other hobbies include painting, dancing, and playing with my dogs."
       }
     ]
   }
