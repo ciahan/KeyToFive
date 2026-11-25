@@ -4,6 +4,7 @@ export const AP_SubjectsData = [
     title: "AP US History",
     slug: "ap-us-history",
     category: "History",
+    img: "apush.png",
     notes: [
       {
         id: 1,
@@ -336,6 +337,7 @@ export const AP_SubjectsData = [
     title: "AP US Government",
     slug: "ap-us-government",
     category: "History",
+    img: "gov.png",
     notes: [
       {
         id: 1,
@@ -842,6 +844,7 @@ export const AP_SubjectsData = [
     title: "AP Psychology",
     slug: "ap-psychology",
     category: "Social Sciences",
+    img: "psych.png",
     notes: [
       {
         id: "psych-1",
@@ -1563,6 +1566,7 @@ export const AP_SubjectsData = [
     title: "AP World History",
     slug: "ap-world-history",
     category: "History",
+    img: "world.png",
     notes: [
       {
         id: "world-1",
@@ -1574,51 +1578,57 @@ export const AP_SubjectsData = [
       }
     ],
   },
-  {
+  { // MICRO
     id: "micro",
     title: "AP Microeconomics",
     slug: "ap-microeconomics",
     category: "Social Sciences",
+    img: "micro.png",
     notes: [
     ],
   },
-  {
+  { // MACRO
     id: "macro",
     title: "AP Macroeconomics",
     slug: "ap-macroeconomics",
     category: "Social Sciences",
+    img: "macro.png",
     notes: [
     ],
   },
-  {
+  { // CALC BC
     id: "calc-bc",
     title: "AP Calculus BC",
     slug: "ap-calculus-bc",
     category: "Math",
+    img: "calc.png",
     notes: [
     ],
   },
-  {
+  { // STAT
     id: "stat",
     title: "AP Statistics",
     slug: "ap-statistics",
     category: "Math",
+    img: "stat.png",
     notes: [
     ],
   },
-  {
+  { // CSA
     id: "compt-sci-a",
     title: "AP Computer Science A",
     slug: "ap-computer-science-a",
     category: "Computer Science",
+    img: "cs.png",
     notes: [
     ],
   },
-  { // ALL LINKS SHOULD BE GOOD
+  { // BIO
     id: "bio",
     title: "AP Biology",
     slug: "ap-biology",
     category: "Science",
+    img: "bio.png",
     notes: [
       {
         id: "bio-1",
@@ -2003,45 +2013,50 @@ export const AP_SubjectsData = [
       },
     ],
   },
-  {
+  { // PHYSICS C MECH
     id: "physics-c-mech",
     title: "AP Physics C: Mechanics",
     slug: "ap-physics-c-mechanics",
     category: "Science",
+    img: "mech.png",
     notes: [
     ],
   },
-  {
+  { // PHYSICS C ELECMAG
     id: "physics-c-elec",
     title: "AP Physics C: Electricity and Magnetism",
     slug: "ap-physics-c-electricity-and-magnetism",
     category: "Science",
+    img: "elecmag.png",
     notes: [
     ],
   },
-  {
+  { // CHEM
     id: "chem",
     title: "AP Chemistry",
     slug: "ap-chemistry",
     category: "Science",
+    img: "chem.png",
     notes: [
     ],
   },
-  {
+  { // PHYSICS 1
     id: "physics-1",
     title: "AP Physics 1",
     slug: "ap-physics-1",
     category: "Science",
+    img: 'physics1.png',
     notes: [
       {
         id: "physics1-1",
         title: "AP Physics 1 Study Guide",
         slug: "study-guide-2026",
-        platform: "Google Docs",
+        platform: "Google Doc",
         contributors: ["Olivia Yang", "Avery Gluck", "Other Bronx Students"],
         year: "2026",
-        description: "",
-        url: "https://docs.google.com/document/d/1VhkjN-oLPMYhzYtXigd2P1BoABd61MFabPcDKIuebXg/edit?tab=t.0",
+        description: "Missing/incomplete units 7, 8, & 9.",
+        url: 
+        "https://docs.google.com/document/d/e/2PACX-1vRA-W4v9jX1cgnyghTd4wSUI9M-2E-m84N-3L_cRSeiAV0Y-uR9TXnIzlJD1yFKGq5SbiDjGOEJAe55/pub?embedded=true"
       }
     ]
   }
@@ -2083,22 +2098,32 @@ export const Categories = [
   {
     id: "math",
     name: "Math",
+    color: "--blue1",
+    borderColor: "--blue3",
   },
   {
     id: "comptSci",
     name: "Computer Science",
+    color: "",
+    borderColor: "",
   },
   {
     id: "science",
     name: "Science",
+    color: "--teal1",
+    borderColor: "--teal3",
   },
   {
     id: "history",
     name: "History",
+    color: "--yellow1",
+    borderColor: "--yellow3",
   },
   {
     id: "socialSci",
     name: "Social Sciences",
+    color: "--orange1",
+    borderColor: "--orange3",
   },
 ]
 

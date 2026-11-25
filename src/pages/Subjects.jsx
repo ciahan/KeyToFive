@@ -163,14 +163,25 @@ export default function Subjects() {
                                     onUnitClick={handleUnitClick}
                                 />
                             ) : (
-                                <a
-                                    href={selectedNote.url}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="buttonBig"
-                                >
-                                    Open Full Note Set
-                                </a>
+                                selectedNote.platform == "Google Doc" ? (
+                                    <div className="w-full max-w-[850px] mx-auto aspect-[8.5/11] overflow-hidden">
+                                        <iframe
+                                            src={`${selectedNote.url}`}
+                                            className="w-full h-[80vh]"
+                                        />                                
+                                    </div>
+                                ) : (
+                                    <a
+                                        href={selectedNote.url}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="buttonBig"
+                                    >
+                                        <h1>
+                                            Open Full Note Set
+                                        </h1>
+                                    </a>
+                                )
                             )}
                         </div>
                     ) : selectedSubject ? ( // WHEN YOU CLICK INTO THE SUBJECT
@@ -253,6 +264,10 @@ export default function Subjects() {
                                                 `category whitespace-nowrap
                                                 ${activeCategory === category.name ? 'active' : ''}`
                                             }
+                                            style={{
+                                                "--category-bg": `var(${category.color || "--pink1"})`,
+                                                "--category-border": `var(${category.borderColor || "--pink3"})`
+                                            }}
                                             onClick={() => {
                                                 if (activeCategory === category.name) {
                                                 setActiveCategory('All');
@@ -270,24 +285,38 @@ export default function Subjects() {
                             </div>
 
                             {/* SUBJECTS DASHBOARD */}
-                            <div className="flex flex-col gap-3">
+                            <div className="grid grid-cols-1 md: grid-cols-2 gap-5">
                             {[...filteredSubjects]
                                 .sort((a, b) => a.title.localeCompare(b.title)) // sort by alphabetical order
-                                .map((subject) => (
-                                <div 
-                                    key={subject.id} 
-                                    className="subjectCard w-full" 
-                                    onClick={() => {
-                                        sessionStorage.setItem(
-                                            'subjectsScrollPosition',
-                                            String(window.scrollY)
-                                        );
-                                        navigate(`/subjects/${subject.slug}`);
-                                    }}
-                                >
-                                    <h1>{subject.title}</h1>
-                                </div>
-                            ))}
+                                .map((subject) => {
+                                    const category = Categories.find(
+                                        (category) => category.name == subject.category
+                                    );
+
+                                    return(
+                                        <div 
+                                            key={subject.id} 
+                                            className="subjectCard w-full" 
+                                            style={{
+                                                "--subject-bg": `var(${category?.color || "--pink1"})`,
+                                                "--subject-border": `var(${category?.borderColor || "--pink3"})`
+                                            }}
+                                            onClick={() => {
+                                                sessionStorage.setItem(
+                                                    'subjectsScrollPosition',
+                                                    String(window.scrollY)
+                                                );
+                                                navigate(`/subjects/${subject.slug}`);
+                                            }}
+                                        >
+                                            <img 
+                                                src={`/SubjectIcons/${subject.img}`}
+                                                className="w-full max-w-[200px] h-auto mx-auto"
+                                            />
+                                            <h1>{subject.title}</h1>
+                                        </div>
+                                    )
+                            })}
                             </div>
 
                             {/* NO MATCHING SUBJECTS MESSAGE (only relevant if something has been entered in the search bar) */}

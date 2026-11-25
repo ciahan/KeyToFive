@@ -119,7 +119,7 @@ export default function Home() {
                                 <div className="home2 gap-4 lg:gap-8 w-full">
                                     <a
                                         className="buttonBig2 flex-1"
-                                        href="mailto:apnoteshare@gmail.com?subject=I%20want%20to%20contribute"
+                                        href="mailto:keytofive@gmail.com?subject=I%20want%20to%20contribute"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
